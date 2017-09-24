@@ -100,3 +100,4 @@ module.exports = function(proxy, allowedHost) {
     },
   };
 };
+config.applyDevServer(module.exports);

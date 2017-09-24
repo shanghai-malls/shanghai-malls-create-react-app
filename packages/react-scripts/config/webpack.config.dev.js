@@ -289,3 +289,4 @@ module.exports = {
     hints: false,
   },
 };
+require('./webpack.ext')(module.exports);

@@ -361,3 +361,4 @@ module.exports = {
     child_process: 'empty',
   },
 };
+require('./webpack.ext')(module.exports);
