@@ -100,4 +100,4 @@ module.exports = function(proxy, allowedHost) {
     },
   };
 };
-config.applyDevServer(module.exports);
+require('./webpack.apply.default').applyDevServer(module.exports);
